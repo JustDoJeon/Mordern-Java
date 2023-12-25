@@ -60,18 +60,6 @@ class CalculatorService {
 
     public int calculate( int num1, int num2) {
 
-//        if(calculation == '+'){
-//            return num1 + num2;
-//        }else if (calculation == '-'){
-//            return num1-num2;
-//        }else if (calculation=='/'){
-//            return num1/num2;
-//        }else if(calculation=='*'){
-//            return num1*num2;
-//        }else{
-//            throw new IllegalArgumentException("Unknown calculation: " + calculation);
-//        }
-
         return calculation.calculate(num1, num2);
     }
 }
