@@ -1,4 +1,4 @@
-package com.dodo.mordernjava.java8;
+package com.dodo.mordernjava.java8.OopExample;
 
 import com.dodo.mordernjava.java8.OopExample.OopExamples;
 

@@ -1,4 +1,4 @@
-package com.dodo.mordernjava.java8;
+package com.dodo.mordernjava.java8.OopExample;
 
 import java.util.Arrays;
 import java.util.List;
