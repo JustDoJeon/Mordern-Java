@@ -5,16 +5,16 @@ public class OopExamples {
     public static void main(String[] args) {
         final CalculatorService calculatorService = new CalculatorService();
 
-        final int additionResult = calculatorService.calculate(1, 1);
+        final int additionResult = calculatorService.calculate(11, 1);
         System.out.println(additionResult);
 
-        final int subtractResult = calculatorService.calculate(1, 1);
+        final int subtractResult = calculatorService.calculate(11, 2);
         System.out.println(subtractResult);
 
-        final int multiplicationResult = calculatorService.calculate(1, 1);
+        final int multiplicationResult = calculatorService.calculate(12, 6);
         System.out.println(multiplicationResult);
 
-        final int divisionResult = calculatorService.calculate(1, 1);
+        final int divisionResult = calculatorService.calculate(14, 2);
         System.out.println(divisionResult);
 
         final FpCalculatorService fpCalculatorService = new FpCalculatorService();
